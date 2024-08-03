@@ -6,7 +6,7 @@
     --fuentePrincipal:'Raleway', sans-serif;
 }
 
-htm{
+html{
     font-size: 62.5%;
     box-sizing: border-box;
 }
@@ -32,6 +32,7 @@ h1{
 h2{
     font-size: 5.8rem;
 }
+
 h3{
     font-size: 5rem;
 }
@@ -85,12 +86,12 @@ img {
 .nombre-sitio{
     font-weight: 300;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
 }   
 
 @media (min-width: 768px) {
     .nombre-sitio{
-        font-size: 4rem;
+        font-size: 5rem;
     }
 }
 
@@ -143,10 +144,12 @@ img {
     width: 100%;
     margin-top: 1rem;
 }
-@media (min-width: 768px) {
+
+
+
+@media (min-width: 1200px) {
     .navegacion{
-        flex-direction: row;
-        
+        flex-direction: row; 
     }
 }
 .navegacion a{
